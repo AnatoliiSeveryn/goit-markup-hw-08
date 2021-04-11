@@ -1,0 +1,31 @@
+.sotial-list__icon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .sotial-list__link:hover &,
+    .sotial-list__link:focus & {
+        fill: var(--color-active-icon);
+    }
+}
+
+.sotial-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sotial-list__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
+
+}

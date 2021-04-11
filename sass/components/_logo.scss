@@ -1,0 +1,27 @@
+.logo {
+    @include font(26px, 700, 31px);
+    font-family: var(--secondary-font);
+    letter-spacing: 0.03em;
+
+    .header & {
+        margin-right: 93px;
+    }
+
+    &_theme {
+
+        &_dark {
+          color: #212121;
+        }
+
+        &_light {
+            color: #ffffff;
+        }
+    }
+}
+
+.logo__item {
+    @include font(26px, 700, 31px);
+    font-family: var(--secondary-font);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}

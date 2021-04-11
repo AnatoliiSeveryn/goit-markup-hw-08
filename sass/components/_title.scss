@@ -1,0 +1,15 @@
+.title {
+    @include font(36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    .clients>.container & {
+        margin-bottom: 50px;
+    }
+
+    .team>.container &,
+    .work>.container & {
+        margin-bottom: var(--margin-bottom-title);
+    }
+
+}

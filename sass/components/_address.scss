@@ -1,0 +1,26 @@
+.address-list {
+    margin-top: 20px;
+}
+
+.address-list__item {
+    &:not(:last-child) {
+    margin-bottom: 9px;
+    }
+}
+
+.address-list__link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    &_theme {
+
+        &_light {
+            color: #ffffff;
+        }
+
+        &_dark {
+            color: #ffffff99;
+        }
+    }
+}
