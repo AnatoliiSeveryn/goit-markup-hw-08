@@ -1,4 +1,38 @@
 .logo {
+    @include font(24px, 700, 28px);
+    font-family: var(--secondary-font);
+    letter-spacing: 0.03em;
+
+    .header & {
+        margin-right: 93px;
+    }
+
+    &_theme {
+
+        &_dark {
+            color: #212121;
+        }
+
+        &_light {
+            color: #ffffff;
+        }
+    }
+
+    .footer-adress__logo & {
+        width: 154px;
+    }
+}
+
+.logo__item {
+    @include font(24px, 700, 28px);
+    font-family: var(--secondary-font);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+
+@media screen and (min-width: 1200px) {
+.logo {
     @include font(26px, 700, 31px);
     font-family: var(--secondary-font);
     letter-spacing: 0.03em;
@@ -17,6 +51,7 @@
             color: #ffffff;
         }
     }
+    
 }
 
 .logo__item {
@@ -24,4 +59,5 @@
     font-family: var(--secondary-font);
     letter-spacing: 0.03em;
     color: var(--accent-color);
+}
 }

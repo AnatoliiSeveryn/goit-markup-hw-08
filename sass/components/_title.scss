@@ -1,4 +1,12 @@
 .title {
+    @include font(28px, 700, 33px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: var(--margin-bottom-title);
+}
+
+@media screen and (min-width: 1200px) {
+.title {
     @include font(36px, 700, 42px);
     text-align: center;
     letter-spacing: 0.03em;
@@ -11,5 +19,5 @@
     .work>.container & {
         margin-bottom: var(--margin-bottom-title);
     }
-
+}
 }

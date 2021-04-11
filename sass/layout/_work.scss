@@ -1,4 +1,12 @@
-.work {
+@media screen and (max-width: 1200px) {
+    .work {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .work {
     padding-top: 47px;
     padding-bottom: var(--padding-bottom-section);
 }
@@ -33,4 +41,5 @@
     padding-top: 27px;
     padding-bottom: 27px;
     background: rgba(47, 48, 58, 0.8);
+}
 }
