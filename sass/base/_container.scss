@@ -23,9 +23,40 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-        width: 1200px;
-    }
+.container {
+             width: 1200px;
+             margin: 0 auto;
+             padding-left: 15px;
+             padding-right: 15px;
+
+             .footer & {
+                 display: flex;
+                 align-items: baseline;
+             }
+
+             .header & {
+                 display: flex;
+                 align-items: center;
+             }
+
+             .hero & {
+                 align-items: center;
+             }
+
+             .navigation-projects & {
+                 display: flex;
+                 justify-content: center;
+             }
+
+             .priorities & {
+                 display: flex;
+             }
+
+             .team &,
+             .work & {
+                 align-items: center;
+             }
+         }
 }
 
 

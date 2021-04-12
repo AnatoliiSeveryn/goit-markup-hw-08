@@ -1,3 +1,4 @@
+// @media screen and (max-width: 1199px) {
 .address-list {
     margin-bottom: 60px;
 
@@ -8,6 +9,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        // }
 }
 
 .address-list__item {
@@ -32,6 +34,28 @@
         }
     }
 }
+// }
+
+@media screen and (min-width: 768px) {
+.address-list__item {
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+}
+
+.address-list {
+    margin-bottom: 60px;
+
+    // display: flex;
+    // // align-items: baseline;
+
+    // // @media screen and (max-width:767px) {
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // }
+}
+}
 
 @media screen and (min-width: 1200px) {
 .address-list {
@@ -40,7 +64,7 @@
 
 .address-list__item {
     &:not(:last-child) {
-    margin-bottom: 9px;
+        margin-bottom: 9px;
     }
 }
 
