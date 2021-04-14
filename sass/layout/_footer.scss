@@ -36,6 +36,7 @@
 
 .footer__container-wrapper {
 display: flex;
+align-items: baseline;
 }
 
 .footer {
@@ -58,7 +59,9 @@ display: flex;
 }
 
 .footer-adress {
-     margin-left: 0px;
+    margin-left: 0px;
     margin-right: 70px;
+    align-items: flex-start;
+
 }
 }

@@ -1,26 +1,20 @@
-// @media screen and (max-width: 1199px) {
 .address-list {
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-        display: flex;
-        // align-items: baseline;
-
-        // @media screen and (max-width:767px) {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        // }
 }
 
 .address-list__item {
     &:not(:last-child) {
-        margin-bottom: 9px;
+        margin-bottom: 8px;
     }
 }
 
 .address-list__link {
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, 400, 24px);
     letter-spacing: 0.03em;
 
     &_theme {
@@ -37,51 +31,20 @@
 // }
 
 @media screen and (min-width: 768px) {
-.address-list__item {
-    &:not(:last-child) {
-        margin-bottom: 8px;
-    }
-}
-
 .address-list {
     margin-bottom: 60px;
-
-    // display: flex;
-    // // align-items: baseline;
-
-    // // @media screen and (max-width:767px) {
-    // flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
-    // }
 }
 }
+
 
 @media screen and (min-width: 1200px) {
 .address-list {
-    margin-top: 20px;
+    align-items: flex-start;
 }
 
 .address-list__item {
     &:not(:last-child) {
         margin-bottom: 9px;
-    }
-}
-
-.address-list__link {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-
-    &_theme {
-
-        &_light {
-            color: #ffffff;
-        }
-
-        &_dark {
-            color: #ffffff99;
-        }
     }
 }
 }

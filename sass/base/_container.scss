@@ -7,6 +7,11 @@
         align-items: center;
         justify-content: space-between;
     }
+
+    .navigation-projects & {
+    display: flex;
+    justify-content: center;
+    }
 }
 
 @media screen and (min-width: 480px) {
@@ -34,18 +39,8 @@
                  align-items: baseline;
              }
 
-             .header & {
-                 display: flex;
-                 align-items: center;
-             }
-
              .hero & {
                  align-items: center;
-             }
-
-             .navigation-projects & {
-                 display: flex;
-                 justify-content: center;
              }
 
              .priorities & {
@@ -58,39 +53,3 @@
              }
          }
 }
-
-
-// .container {
-//     width: 1200px;
-//     margin: 0 auto;
-//     padding-left: 15px;
-//     padding-right: 15px;
-
-//     .footer & {
-//         display: flex;
-//         align-items: baseline;
-//     }
-    
-//     .header & {
-//         display: flex;
-//         align-items: center;
-//     }
-
-//     .hero & {
-//         align-items: center;
-//     }
-
-//     .navigation-projects & {
-//         display: flex;
-//         justify-content: center;
-//     }
-
-//     .priorities & {
-//         display: flex;
-//     }
-
-//     .team &,
-//     .work & {
-//         align-items: center;
-//     }
-// }

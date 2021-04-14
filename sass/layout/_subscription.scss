@@ -10,7 +10,7 @@
 
 .subscription__title {
     @include font(14px, 700, 16px);
-    display: block;
+    display: flex;
     font-family: var(--main-font);
     font-style: normal;
     letter-spacing: 0.03em;
