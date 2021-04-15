@@ -8,8 +8,6 @@
 @media screen and (min-width: 1200px) {
 .title {
     @include font(36px, 700, 42px);
-    text-align: center;
-    letter-spacing: 0.03em;
 
     .clients>.container & {
         margin-bottom: 50px;

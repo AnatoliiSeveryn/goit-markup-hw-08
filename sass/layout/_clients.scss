@@ -52,8 +52,7 @@
       width: 226px;
       height: 92px;
       flex-basis: calc(100% / 3 - var(--margin-left-top));
-      margin-left: var(--margin-left-top);
-      margin-top: var(--margin-left-top);
+
   }
 }
 
@@ -67,7 +66,5 @@
     width: 170px;
     height: 90px;
     flex-basis: calc(100% / 6 - var(--margin-left-top));
-    margin-left: var(--margin-left-top);
-    margin-top: var(--margin-left-top);
 }
 }
