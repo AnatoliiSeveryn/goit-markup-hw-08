@@ -655,27 +655,20 @@ body {
     fill: var(--accent-color);
   }
   .mobile-menu {
-    background-color: #ffffff;
     position: fixed;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    overflow: scroll;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 40px;
-    padding-right: 40px;
     top: 0;
     left: 50%;
-    transform: translateX(-50%) translateY(-100%);
-    opacity: 0;
-    z-index: 1;
-    transition: transform 500ms linear, opacity 500ms linear;
+    width: 100vw;
+    max-width: 480px;
+    height: 100vh;
+    overflow: scroll;
+    padding: 48px 40px;
+    background-color: #ffffff;
+    transform: translateY(-100%) translateX(-50%);
+    transition: transform 250ms linear;
   }
   .is-open {
-    display: flex;
-    transform: translateX(-50%) translateY(0);
-    opacity: 1;
+    transform: translateY(0) translateX(-50%);
   }
   .mobile-menu__item:not(:last-child) {
     margin-bottom: 35px;
