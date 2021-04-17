@@ -81,17 +81,17 @@
      background-color: #ffffff;
  }
 
-//  .mobile-menu__close-icon {
-//      fill: var(--main-color);
-//           width: 40px;
-//           height: 40px;
-//           transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ .mobile-menu__close-icon {
+     fill: var(--main-color);
+        //   width: 40px;
+        //   height: 40px;
+          transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//           &:focus,
-//           &:hover {
-//      fill: var(--accent-color);
-//           }
-//  }
+          &:focus,
+          &:hover {
+     fill: var(--accent-color);
+          }
+ }
 
  .mobile-menu__close-btn {
     //  width: 40px;
