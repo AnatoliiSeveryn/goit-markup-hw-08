@@ -1048,7 +1048,6 @@ body {
 .subscription {
   width: 450px;
   height: 86px;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -1058,6 +1057,8 @@ body {
   font-weight: 700;
   line-height: 1.14;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--main-font);
   font-style: normal;
   letter-spacing: 0.03em;
@@ -1075,7 +1076,7 @@ body {
 
 .subscription__input {
   display: inline-block;
-  width: 450px;
+  width: 100%;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -1083,7 +1084,6 @@ body {
   border-radius: 4px;
   background-color: transparent;
   padding-left: 16px;
-  margin-bottom: 20px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
@@ -1098,6 +1098,13 @@ body {
 
 .subscription__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 1199px) {
+  .subscription__input {
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
 }
 
 .subscription__btn {
@@ -1127,6 +1134,8 @@ body {
   margin-left: 10px;
   width: 24px;
   height: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background-image: url(../images/icon/send.svg);
   background-size: contain;
   background-repeat: no-repeat;
