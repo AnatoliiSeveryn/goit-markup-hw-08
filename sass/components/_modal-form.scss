@@ -1,5 +1,5 @@
 .modal-form__field {
-    @include font();
+    @include font(12px, 400, 14px);
     font-family: var(--main-font);
     font-style: normal;
     letter-spacing: 0.01em;
