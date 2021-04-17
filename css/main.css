@@ -667,6 +667,7 @@ body {
     background-color: #ffffff;
     transform: translateY(-100%) translateX(-50%);
     transition: transform 250ms linear;
+    z-index: 1;
   }
   .is-open {
     transform: translateY(0) translateX(-50%);
