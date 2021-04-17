@@ -2,7 +2,7 @@
     @include font(28px, 700, 33px);
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: var(--margin-bottom-title);
+    margin-bottom: var(--margin-bottom-title-mobile);
 }
 
 @media screen and (min-width: 1200px) {
@@ -10,7 +10,7 @@
     @include font(36px, 700, 42px);
 
     .clients>.container & {
-        margin-bottom: 50px;
+        margin-bottom: var(--margin-bottom-title);
     }
 
     .team>.container &,

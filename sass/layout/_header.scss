@@ -117,6 +117,9 @@
 
    .mobile-menu {
        position: fixed;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
        top: 0;
        left: 50%;
        width: 100vw;
@@ -153,9 +156,12 @@
      }
  }
 
- .contact-menu__list {
-     margin-top: 300px;
- }
+//  .contact-menu__list {
+//     //  position: relative;
+//     //  margin-top: 300px;
+// //     //  position: absolute;
+// //     //  justify-content: space-between;
+//  }
 
  .contact-menu__tel-link {
      color: var(--accent-color);
@@ -178,6 +184,11 @@
      margin-bottom: 32px;
  }
 
+//  .contact-menu-wrapper {
+//      position: absolute;
+// //    justify-content: space-between;  
+//  }
+   
  .sotial-menu {
      margin-top: 64px;
      display: flex;
